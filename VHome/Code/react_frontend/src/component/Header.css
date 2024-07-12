@@ -1,0 +1,13 @@
+/* Hide the default arrow icon in dropdown menu */
+.dropdown-toggle::after {
+    display: none !important;
+}
+/* Hide the underlines and the color is inherited from their parent element */
+.headerLink {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+/* The background color of active dropdown menu links will be inherite from their parent element */
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: inherit !important;
+}
